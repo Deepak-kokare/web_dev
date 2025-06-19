@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+
+}
+
+#intro{
+    height:45%;
+    width: 100%;
+    background-color: aqua;
+    padding: 60px 70px; 
+}
+
+#intro h1{
+    font-size: 110px;
+    letter-spacing: -3px;
+    line-height: 100px;
+}
+#place{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+#place h3 ,#place h4{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* img{
+    height: 87%;
+    width: 100%;
+    background-size: cover;
+} */
+ #hero-image{
+    height: 97%;
+    width: 100%;
+   background-image: https://i.pinimg.com/736x/08/81/8a/08818ab44337a4d3ae1a7a5e3bdec646.jpg
+   background-size: cover;

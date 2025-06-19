@@ -57,6 +57,61 @@ html, body{
     font-weight: 600;
     background-color: white;
 }  
-#nav btn2{
-    background-color: orange;
+#navbtn2{
+    border: none;
+    color: #fff;
+    background-color: orangered;
+} 
+
+#main>h1{
+    /* color: red; */
+    font-size: 150px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    width: 100%;
+    text-align: center;
+}
+
+img {
+    height: 400px;
+    width: 330px;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 20px;
+    transform: translate(-50%, -50%);
+}
+
+#img1 {
+    transform: translate(-50%, -50%)  rotate(-30deg);
+}
+#img2 {
+    transform: translate(-50%, -50%)  rotate(-20deg);
+}
+#img3 {
+    transform: translate(-50%, -50%)  rotate(-10deg);
+}
+
+#btm-left {
+    position: absolute;
+    bottom:5%;
+    left:3% ;
+    font-size: 17px;
+}
+
+#place{
+    position: absolute;
+    bottom: 0px;
+    align-items: center;
+    font-size: ;
+    /* margin-right: 10px; */
+}
+#about{
+    display: flex;
+    background-color: aquamarine;
 }
